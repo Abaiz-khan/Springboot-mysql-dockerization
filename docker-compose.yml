@@ -1,0 +1,20 @@
+version: "3.8"
+services:
+  server:
+    build: .
+    restart: always
+    ports:
+      - "8081:8081"
+    depends_on:
+      - mysqldb
+  mysqldb:
+    # platform: linux/x84_64 # Incorrect placement of `platform` key
+    image: "mysql:5.7"
+    restart: always
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_DATABASE: oks
+      MYSQL_USER: ouser
+      MYSQL_PASSWORD: ouser
+      MYSQL_ROOT_PASSWORD: ouser

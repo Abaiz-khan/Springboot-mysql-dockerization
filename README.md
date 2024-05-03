@@ -53,7 +53,3 @@ Follow these steps to run the Spring Boot application and MySQL server using Doc
 - The Spring Boot application connects to the MySQL server using the credentials defined in the `docker-compose.yml` file. You can modify these credentials as needed.
 - The MySQL data is persisted in a Docker volume to ensure that the data persists even if the containers are stopped or removed.
 - Feel free to explore and modify the source code in the `src/` directory to suit your requirements.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).

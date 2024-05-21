@@ -14,7 +14,7 @@ services:
     ports:
       - "3307:3306"
     environment:
-      MYSQL_DATABASE: oks
-      MYSQL_USER: ouser
-      MYSQL_PASSWORD: ouser
-      MYSQL_ROOT_PASSWORD: ouser
+      MYSQL_DATABASE: o
+      MYSQL_USER: ou
+      MYSQL_PASSWORD: ou
+      MYSQL_ROOT_PASSWORD: ou

@@ -39,6 +39,10 @@ Follow these steps to run the Spring Boot application and MySQL server using Doc
 3. Build and run the Docker containers:
 
    ```bash
+   command to build mvn with out tests
+   
+   mvn clean install -DskipTests
+
    docker-compose up --build
    ```
 
